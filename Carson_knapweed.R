@@ -5,7 +5,7 @@
 # Study performed in 2012-2013, examingin bee communities in knapweed dominated and restored floral communities
 
 #bring data in
-Observations<-read.csv(file="C:/Rdata/Carson_knapweed_2015.csv", header=TRUE)
+Observations<-read.csv(file="https://raw.githubusercontent.com/cbahlai/Carson2015/master/Carson_knapweed_2015.csv", header=TRUE)
 
 #check for errors
 summary(Observations)
